@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'GangwonEduPowerExtraBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{margin:0;
+  background-color: #FFE269;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.daybox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 300px;
+  background-color: white;
+  margin: 0px;
+  padding: 10px;
+}
+#day1{
+  background-image:url("./빗방울무늬-100.jpg");
+}
+.daybut{
+  margin:50px
+}
+.daytext{
+  font-size: 70px;
+  font-family: 'GangwonEduPowerExtraBoldA';
+}
+.daytextsub{
+  font-size: 40px;
+  font-family: 'GangwonEduPowerExtraBoldA';
+}
+.text{margin-left: 100px;
+}

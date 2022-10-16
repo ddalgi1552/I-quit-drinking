@@ -1,0 +1,39 @@
+body{
+  position: relative;
+  text-align: center;
+  margin: 0;
+  background-color: #FFE269;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.input-box{
+  flex-direction: column;
+  text-align: left;
+}
+
+img{
+  width: 800px;
+  position:absolute;
+  top: 160%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button{
+  position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
